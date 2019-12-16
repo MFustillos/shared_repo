@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Taller Web Presentacion </title>
+    <style type="text/css">
+      body {
+        font-family: Georgia, "Times New Roman",
+          Times, serif;
+        color: blue;
+        background-color: lightskyblue }
+
+        h1 {
+              font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+
+      </style>
+      
+    <script>
+      function setBorderWidth(width) {
+        document.getElementById("img1").style.borderWidth = width + "px";
+      }
+
+      function showRow(){
+          alert(document.getElementById('myTable').rows[0].innerHTML);
+        }
+      </script>
+  </head>
+  <body>
+    <h1>Web Ubicua</h1>
+    <p> <i>La conexión entre lo real y lo virtual a cualquier hora, desde cualquier dispositivo uniendo experiencias, personas, sucesos, construyendo tendencias y formando nuevas ideas innovadoras, es lo que ha modificado la forma en la que vemos el mundo, el orden social establecido y cómo nos desenvolvemos en él.
+        La Web ubicua es en sí­ misma, la consecuencia lógica de esta exaltación por la calidad y el aprendizaje cuya primera toma de contacto la tuvimos con Quora y más adelante con un algoritmo Google mucho más exigente en relación a la calidad.</i></p>
+        
+    <p>
+      <img id="img1"
+           src="C:\MSIG\Monica\Tecnolgias Web\Talleres\Practica 3.1\images\evolutionweb.png"
+           style="border: 5px solid green;"
+           width="300" height="300" alt="border test">
+    </p>
+    
+    <table id="myTable" border="1">
+      <tr>
+        <th>Caracteristicas</th>
+      </tr>
+      <tr>
+        <td>Comprension del lenguaje natural (NLU) y tecnicas de Speech-to-Text</td>
+      </tr>
+      <tr>    
+        <td>Nuevos modelos de comunicacion maquina-maquina (M2M)</td>
+      </tr>
+      <tr>
+         <td>Uso de información de contexto del usuario. Sentiment analysis, geolocalización, sensores</td>
+        </tr>
+      <tr>    
+        <td>Nuevo modelo de interacción con el usuario</td>
+      </tr>
+      </table>
+      <br>
+      <input type="button" onclick="showRow()" value="Tablas utilizando el DOM">
+      
+
+    <h2>Ejemplos de Web 4.0</h2>
+    <ul>
+        <li>Tunes, el servicio de venta de música online de Apple que está funcionando muy bien, pese al P2P.</li>
+        <li>Netflix, el servicio de alquiler de películas que tiene ya 23 millones de clientes en EE.UU.</li>
+        <li>Kindle, el ebook de Amazon que con su éxito ha propulsado a la firma norteamericana hasta valores nunca vistos en Bolsa</li>
+        <li>Las apps de iPhone, que también están convirtiendo a este teléfono en una mina de oro, en la medida en que el fabricante del terminal se queda con el 30% de cada operación.</li>
+        <li>Linkedin, que tiene en las cuentas premium su principal fuente de ingresos.</li>
+        <li>Periódicos y revistas como el New York Times o el Economist, que han conseguido rentabilizar sus operaciones online merced a las cuentas de pago.</li>
+      </ul>
+    <section>
+     </section>
+     <footer>Copyright 2019 Web Technolgies</footer>
+    
+  </body>
+</html>
